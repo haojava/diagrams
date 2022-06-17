@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T07:45:29.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="YqD7IkQnLCqVDIuTpXkL" version="20.0.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-17T08:54:08.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="zhYUeV5R8iD64TPufvMe" version="20.0.1" type="github" pages="3">
   <diagram id="0yfv4M_cfUsrdj4uZA5G" name="系统说明">
     <mxGraphModel dx="978" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -460,37 +460,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cg7OIZj8XkSRhY0GIUs_-0" value="ApiExecutor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-55" y="1650" width="120" height="60" as="geometry" />
+          <mxGeometry x="66.5" y="1900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cg7OIZj8XkSRhY0GIUs_-7" value="doExecute（）" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="145" y="1650" width="120" height="60" as="geometry" />
+          <mxGeometry x="266.5" y="1900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cg7OIZj8XkSRhY0GIUs_-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="275" y="1620" width="20" height="120" as="geometry" />
+          <mxGeometry x="396.5" y="1870" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Cg7OIZj8XkSRhY0GIUs_-11" value="&lt;font face=&quot;Verdana&quot;&gt;1、记录请求日志&amp;nbsp;t_interface_record&amp;nbsp;&lt;br&gt;2、请求预处理 R&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;equestPreHandler(报文解析，封装ApiContext，幂等校验、根据taskCode进行并发校验“添加任务队列&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&amp;nbsp;MemoryDataResource.&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; font-style: italic;&quot;&gt;instance&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;().getTaskCodeMap()&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;”)&lt;br&gt;3、根据业务类型，路由到具体业务Handler&amp;nbsp;&lt;br&gt;4、响应消息处理（锁释放，消息封装，国际化）&lt;br&gt;5、记录响应日志&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="305" y="1630" width="522" height="90" as="geometry" />
+          <mxGeometry x="441.5" y="1895" width="522" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Cg7OIZj8XkSRhY0GIUs_-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Cg7OIZj8XkSRhY0GIUs_-13" target="Cg7OIZj8XkSRhY0GIUs_-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cg7OIZj8XkSRhY0GIUs_-13" value="GMS系统启动" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="1400" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="1530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cg7OIZj8XkSRhY0GIUs_-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Cg7OIZj8XkSRhY0GIUs_-14" target="Cg7OIZj8XkSRhY0GIUs_-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cg7OIZj8XkSRhY0GIUs_-14" value="读取applicationContext对象，获取业务处理Handler实例对象" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="270" y="1400" width="149" height="60" as="geometry" />
+          <mxGeometry x="270" y="1530" width="149" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cg7OIZj8XkSRhY0GIUs_-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Cg7OIZj8XkSRhY0GIUs_-16" target="Cg7OIZj8XkSRhY0GIUs_-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cg7OIZj8XkSRhY0GIUs_-16" value="写入ApiSelector 下的 Map缓存&lt;br&gt;（k,v）-&amp;gt;(业务类型,实例对象)" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="1400" width="179" height="60" as="geometry" />
+          <mxGeometry x="470" y="1530" width="179" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cg7OIZj8XkSRhY0GIUs_-18" value="目前共有30个业务处理Handler" style="whiteSpace=wrap;html=1;align=left;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="758.5" y="1400" width="100.5" height="60" as="geometry" />
+        <mxCell id="Cg7OIZj8XkSRhY0GIUs_-18" value="目前共有30个业务处理Handler&lt;br&gt;【ark-station】" style="whiteSpace=wrap;html=1;align=left;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="758.5" y="1530" width="100.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cg7OIZj8XkSRhY0GIUs_-26" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fontFamily=Verdana;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="1357.5" width="20" height="405" as="geometry" />
+        </mxCell>
+        <mxCell id="Cg7OIZj8XkSRhY0GIUs_-27" value="&lt;div&gt;AreaListHandler/AreaListMsg 区域查询&lt;/div&gt;&lt;div&gt;AreaMovingPhaseHandler/AreaMovingPhaseMsg 交通管制区域通行状态通知&lt;/div&gt;&lt;div&gt;ChargerInfoQueryHandler/ChargerInfoMsg --&amp;gt; RMS 充电站信息的查询处理&lt;/div&gt;&lt;div&gt;ContainerListHandler/ContainerListMsg 容器查询处理&lt;/div&gt;&lt;div&gt;ContainerOperationHandler/ContainerOperationMsg 容器货架入场、新增容器&lt;/div&gt;&lt;div&gt;CrossAreaCancelHandler/CrossAreaCancelMsg 取消申请进入/离开交通管制区&lt;/div&gt;&lt;div&gt;CrossAreaPermissionBHandler/CrossAreaPermissionBMsg 申请进入/离开交通管制区 （异步）&lt;/div&gt;&lt;div&gt;CrossAreaPermissionHandler/CrossAreaPermissionMsg 申请进入/离开交通管制区 （同步）&lt;/div&gt;&lt;div&gt;DynamicMovingRequestHandler/DynamicMovingRequestMsg 动态目标点搬运处理&lt;/div&gt;&lt;div&gt;LocationListHandler/LocationListMsg -&amp;gt; rms 点位查询&lt;/div&gt;&lt;div&gt;ApiMsgTypeHandler/MapInfoMsg --&amp;gt; rms 地图信息的查询处理&lt;/div&gt;&lt;div&gt;MovingRequestHandler/MovingRequestMsg 点到点搬运业务处理&lt;/div&gt;&lt;div&gt;MultiMovingRequestHandler/MultiMovingRequestMsg 多点搬运处理&lt;/div&gt;&lt;div&gt;RobotControlMsgHandler/RobotControlMsg 执行指令(消防急停&quot;FIRE_STOP&quot;)&lt;/div&gt;&lt;div&gt;RobotInfoQueryHandler/RobotInfoMsg --&amp;gt; rms 机器人信息查询&lt;/div&gt;&lt;div&gt;StationListHandler/StationListMsg 工作站列表查询&lt;/div&gt;&lt;div&gt;StationQueueHandler/StationQueueMsg 工作站排队控制处理(启动/关闭排队接货)&lt;/div&gt;&lt;div&gt;TrafficAreaLockHandler/TrafficAreaLockMsg 交通管制区区域(锁定/释放)&lt;/div&gt;&lt;div&gt;TrafficControlAreaListHandler/TrafficControlAreaListMsg 交通管制区域实时信息查询&lt;/div&gt;&lt;div&gt;WorkflowConfigListHandler/WorkflowListMsg 流程配置查询&lt;/div&gt;&lt;div&gt;WorkflowInstanceListHandler/WorkflowInstanceListMsg 流程实例查询（任务查询）&lt;/div&gt;&lt;div&gt;WorkflowStartHandler/WorkflowStartMsg 流程启动&lt;/div&gt;&lt;div&gt;ExtendRequestHandler/GeneralNoticeMsg 扩展请求的处理器 (扩展请求的指令选择器)&lt;/div&gt;&lt;div&gt;InstanceOperationHandler/InstanceOperationMsg 指令执行&lt;/div&gt;&lt;div&gt;ContainerCategoryListHandler/ContainerCategoryListMsg&amp;nbsp; 容器类型查询&lt;/div&gt;&lt;div&gt;ContainerManagerApiHandler/WarehouseControlRequestMsg 容器管理&lt;/div&gt;&lt;div&gt;AutoCancelWorkflowApiHandler/MovingCancelMsg 搬运取消&lt;/div&gt;&lt;div&gt;AutoSendWorkflowApiHandler/MovingSendMsg 搬运放行&lt;/div&gt;&lt;div&gt;CellInfoQueryHandler/CellInfoMsg --&amp;gt; RMS 地图信息的查询处理&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="930" y="1345" width="550" height="430" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
