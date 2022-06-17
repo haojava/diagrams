@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T06:41:32.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="oR4WAR4YuNDDW01QJ6L2" version="20.0.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-17T06:56:39.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="X7jdGDU8106nU-K6Ho6X" version="20.0.1" type="github" pages="3">
   <diagram id="0yfv4M_cfUsrdj4uZA5G" name="系统说明">
-    <mxGraphModel dx="1422" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="978" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,6 +128,109 @@
         </mxCell>
         <mxCell id="dAy71OcdcexJn9s6_3Jj-41" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;流程触发器&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="290" y="635" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-1" value="GMS 系统功能模块" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;dashed=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="630" y="40" width="830" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="LEtsk5QCG1ex3gGoKBp3-2" target="LEtsk5QCG1ex3gGoKBp3-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="675" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LEtsk5QCG1ex3gGoKBp3-2" target="LEtsk5QCG1ex3gGoKBp3-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LEtsk5QCG1ex3gGoKBp3-2" target="LEtsk5QCG1ex3gGoKBp3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LEtsk5QCG1ex3gGoKBp3-2" target="LEtsk5QCG1ex3gGoKBp3-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LEtsk5QCG1ex3gGoKBp3-2" target="LEtsk5QCG1ex3gGoKBp3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LEtsk5QCG1ex3gGoKBp3-2" target="LEtsk5QCG1ex3gGoKBp3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LEtsk5QCG1ex3gGoKBp3-2" target="LEtsk5QCG1ex3gGoKBp3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LEtsk5QCG1ex3gGoKBp3-2" target="LEtsk5QCG1ex3gGoKBp3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LEtsk5QCG1ex3gGoKBp3-2" target="LEtsk5QCG1ex3gGoKBp3-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LEtsk5QCG1ex3gGoKBp3-2" target="LEtsk5QCG1ex3gGoKBp3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LEtsk5QCG1ex3gGoKBp3-2" target="LEtsk5QCG1ex3gGoKBp3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LEtsk5QCG1ex3gGoKBp3-2" target="LEtsk5QCG1ex3gGoKBp3-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LEtsk5QCG1ex3gGoKBp3-2" target="LEtsk5QCG1ex3gGoKBp3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-2" value="GMS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="545" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-3" value="地图管理" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-8" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="151" width="50" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-9" value="容器类型&lt;br&gt;容器管理&lt;br&gt;容器货位&lt;br&gt;对接模型&lt;br&gt;区域管理&lt;br&gt;产线管理&lt;br&gt;物料管理&lt;br&gt;产线物料管理&lt;br&gt;上料点管理&lt;br&gt;货位管理&lt;br&gt;搬运目标点维护&lt;br&gt;点位对照" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="156" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-10" value="流程管理" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="360" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-11" value="监控管理" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-12" value="工作站管理" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-13" value="单据管理" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="540" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-14" value="库存管理" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="590" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-15" value="无线呼叫模块" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="650" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-16" value="机器人管理" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="710" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-17" value="PDA设置" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="770" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-18" value="日志管理" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="830" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-19" value="策略中心" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="890" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-20" value="权限管理" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="950" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-21" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(252, 252, 252);&quot;&gt;对波次策略、调度参数&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(252, 252, 252);&quot;&gt;（嵌套rms）&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(252, 252, 252);&quot;&gt;、机器人策略&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(252, 252, 252);&quot;&gt;（嵌套rms）&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(252, 252, 252);&quot;&gt;进行配置&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="895" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-22" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(252, 252, 252);&quot;&gt;对机器人信息进行管理（嵌套rms）&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="710" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-23" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(252, 252, 252);&quot;&gt;对场地地图信息维护&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(252, 252, 252);&quot;&gt;（嵌套rms）&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="95" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LEtsk5QCG1ex3gGoKBp3-24" value="基础信息管理" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="221" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
