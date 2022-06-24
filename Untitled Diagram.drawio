@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T09:08:02.317Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="4CodTWvZoHtFpV0ZxM8X" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-24T10:31:46.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="wVbF2JnjjUsD38oIPSBO" version="20.0.1" type="github" pages="4">
   <diagram id="0yfv4M_cfUsrdj4uZA5G" name="系统说明">
     <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -236,7 +236,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="GMS类图">
-    <mxGraphModel dx="3218" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3076" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -891,6 +891,135 @@
         </mxCell>
         <mxCell id="BC2-0ApDAXKcJMSJRA5C-8" value="请求响应信息封装" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1857.5" y="2980" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3dqJdba0xKwKZPBIIYVl-1" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;WaitTaskSchedule&lt;/span&gt;" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1130" y="3190" width="40" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="fjfXh2ka3kGaMMm1A6nS-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3dqJdba0xKwKZPBIIYVl-1">
+          <mxGeometry x="15" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fjfXh2ka3kGaMMm1A6nS-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fjfXh2ka3kGaMMm1A6nS-8" target="fjfXh2ka3kGaMMm1A6nS-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fjfXh2ka3kGaMMm1A6nS-8" value="加载待发送的任务&lt;br&gt;t_workflow_exe_task&lt;br&gt;（HandleTaskContext）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1430" y="3270" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fjfXh2ka3kGaMMm1A6nS-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fjfXh2ka3kGaMMm1A6nS-9" target="fjfXh2ka3kGaMMm1A6nS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fjfXh2ka3kGaMMm1A6nS-9" value="初始化任务上下文&lt;br&gt;HandleTaskContext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1260" y="3270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fjfXh2ka3kGaMMm1A6nS-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fjfXh2ka3kGaMMm1A6nS-11" target="fjfXh2ka3kGaMMm1A6nS-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="3310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fjfXh2ka3kGaMMm1A6nS-14" value="Runnable" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fjfXh2ka3kGaMMm1A6nS-13">
+          <mxGeometry x="-0.5342" y="2" relative="1" as="geometry">
+            <mxPoint x="21" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fjfXh2ka3kGaMMm1A6nS-18" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fjfXh2ka3kGaMMm1A6nS-15" target="fjfXh2ka3kGaMMm1A6nS-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fjfXh2ka3kGaMMm1A6nS-15" value="获取任务对于工作流实例&lt;br&gt;t_workflow&lt;br&gt;（HandleTaskContext）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1620" y="3270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fjfXh2ka3kGaMMm1A6nS-20" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fjfXh2ka3kGaMMm1A6nS-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1925" y="3400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fjfXh2ka3kGaMMm1A6nS-17" value="PollingHandleTaskPipeline" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1850" y="3270" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fjfXh2ka3kGaMMm1A6nS-21" value="VirtualNodePollingHandleTask" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2160" y="3260" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fjfXh2ka3kGaMMm1A6nS-22" value="虚拟节点的任务预处理" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fjfXh2ka3kGaMMm1A6nS-21">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fjfXh2ka3kGaMMm1A6nS-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="fjfXh2ka3kGaMMm1A6nS-21">
+          <mxGeometry y="52" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fjfXh2ka3kGaMMm1A6nS-24" value="+ order(): PollingHandleOrder.P10&#xa;+ execute(HandleTaskContext) void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="fjfXh2ka3kGaMMm1A6nS-21">
+          <mxGeometry y="60" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f_F6BR7PGfYWaU3t0D8u-0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;PollingHandleTask&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;order(): int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ execute(T t) void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1845" y="3400" width="155" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-1" value="WaitQueueRobotStatusPollingHandleTask" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2160" y="3390" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-2" value="机器人等待排队的任务处理" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-1">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-1">
+          <mxGeometry y="52" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-4" value="+ order(): PollingHandleOrder.P20&#xa;+ execute(HandleTaskContext) void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-1">
+          <mxGeometry y="60" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-5" value="ContainerModelPollingHandleTask" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2160" y="3520" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-6" value="容器模式下的处理" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-5">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-5">
+          <mxGeometry y="52" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-8" value="+ order(): PollingHandleOrder.P30&#xa;+ execute(HandleTaskContext) void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-5">
+          <mxGeometry y="60" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-9" value="CheckDenseStoragePollingHandleTask" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2160" y="3650" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-10" value="检查任务是否是密集存储任务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-9">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-9">
+          <mxGeometry y="52" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-12" value="+ order(): 35&#xa;+ execute(HandleTaskContext) void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-9">
+          <mxGeometry y="60" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-13" value="CheckEndNodeStatusPollingHandleTask" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2160" y="3780" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-14" value="检查目标点的状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-13">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-13">
+          <mxGeometry y="52" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-16" value="+ order(): PollingHandleOrder.P40&#xa;+ execute(HandleTaskContext) void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-13">
+          <mxGeometry y="60" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-17" value="FreeRobotPollingHandleTask" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2160" y="3910" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-18" value="空闲机器人的判断处理" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-17">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-17">
+          <mxGeometry y="52" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-20" value="+ order(): PollingHandleOrder.P50&#xa;+ execute(HandleTaskContext) void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-17">
+          <mxGeometry y="60" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-21" value="SendRobotTaskPollingHandleTask" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2160" y="4040" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-22" value="给rms发送任务的处理" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-21">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-21">
+          <mxGeometry y="52" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fzKD8KK-L_GlZ7bczWTn-24" value="+ order(): PollingHandleOrder.P70&#xa;+ execute(HandleTaskContext) void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="fzKD8KK-L_GlZ7bczWTn-21">
+          <mxGeometry y="60" width="290" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
