@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T06:15:58.655Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="Ort5LsH6KSqnDnZ4-YAu" version="20.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-05T07:59:15.821Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="miAQfpI0Gf_ZtYwJRsBU" version="20.0.4" type="github" pages="4">
   <diagram id="0yfv4M_cfUsrdj4uZA5G" name="系统说明">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1135,6 +1135,26 @@
           <mxGeometry x="0.2216" y="4" relative="1" as="geometry">
             <mxPoint x="-8" y="-11" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="M2gE5eQ1qKKhiQxt5z_8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="M2gE5eQ1qKKhiQxt5z_8-10" source="fzKD8KK-L_GlZ7bczWTn-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2680" y="4122" as="sourcePoint" />
+            <mxPoint x="2755" y="4125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M2gE5eQ1qKKhiQxt5z_8-2" value="execute()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M2gE5eQ1qKKhiQxt5z_8-1">
+          <mxGeometry x="0.2216" y="4" relative="1" as="geometry">
+            <mxPoint x="-8" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M2gE5eQ1qKKhiQxt5z_8-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M2gE5eQ1qKKhiQxt5z_8-10" target="M2gE5eQ1qKKhiQxt5z_8-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M2gE5eQ1qKKhiQxt5z_8-10" value="当前任务&lt;br&gt;负载模式下锁处理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2760" y="4095" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2gE5eQ1qKKhiQxt5z_8-11" value="" style="whiteSpace=wrap;html=1;fontSize=11;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2960" y="4095" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
