@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T08:17:58.640Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="I1axt6Mo01B2Ordvp7jD" version="20.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-15T08:18:36.437Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="CbTWGevcaBpq1f3aAKmE" version="20.0.4" type="github" pages="4">
   <diagram id="0yfv4M_cfUsrdj4uZA5G" name="系统说明">
     <mxGraphModel dx="1422" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1430,7 +1430,7 @@
             <mxPoint x="19" y="-52" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kREMFXWFvvc40EHcC-av-82" value="&lt;div&gt;对循环存放的区域进行缓存处理&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="kREMFXWFvvc40EHcC-av-82" value="&lt;div&gt;对循环存放的区域进行缓存处理&lt;/div&gt;&lt;div&gt;CyclicSaveManager&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2590" y="4520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kREMFXWFvvc40EHcC-av-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kREMFXWFvvc40EHcC-av-84">
