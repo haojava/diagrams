@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T09:31:25.688Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="k9O8VjKLS7YGetY-1GM2" version="20.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-15T03:52:18.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="apnPT0ER_kVu4DBa_yI0" version="20.0.4" type="github" pages="4">
   <diagram id="0yfv4M_cfUsrdj4uZA5G" name="系统说明">
-    <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -236,7 +236,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="GMS类图">
-    <mxGraphModel dx="2957" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3432" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1153,26 +1153,66 @@
         <mxCell id="M2gE5eQ1qKKhiQxt5z_8-10" value="当前任务&lt;br&gt;负载模式下锁处理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="2760" y="4095" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M2gE5eQ1qKKhiQxt5z_8-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M2gE5eQ1qKKhiQxt5z_8-11" target="M2gE5eQ1qKKhiQxt5z_8-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="M2gE5eQ1qKKhiQxt5z_8-11" value="判断是否需要&lt;br&gt;下一步发起指令" style="whiteSpace=wrap;html=1;fontSize=11;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="2920" y="4095" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZqsXquiyKXEDXcnmxECA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M2gE5eQ1qKKhiQxt5z_8-13" target="ZqsXquiyKXEDXcnmxECA-2" edge="1">
+        <mxCell id="M2gE5eQ1qKKhiQxt5z_8-13" value="rpc -&amp;gt; rms 发送任务指令" style="whiteSpace=wrap;html=1;fontSize=11;rounded=0;verticalAlign=top;align=left;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="3120" y="3659.5" width="780" height="372.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kREMFXWFvvc40EHcC-av-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kREMFXWFvvc40EHcC-av-3" target="kREMFXWFvvc40EHcC-av-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3200" y="4135" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kREMFXWFvvc40EHcC-av-4" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kREMFXWFvvc40EHcC-av-2">
+          <mxGeometry x="0.2809" relative="1" as="geometry">
+            <mxPoint x="-77" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kREMFXWFvvc40EHcC-av-5" value="分配机器人" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kREMFXWFvvc40EHcC-av-2">
+          <mxGeometry x="0.7182" y="1" relative="1" as="geometry">
+            <mxPoint x="-29" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kREMFXWFvvc40EHcC-av-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kREMFXWFvvc40EHcC-av-1" target="kREMFXWFvvc40EHcC-av-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M2gE5eQ1qKKhiQxt5z_8-13" value="rpc -&amp;gt; rms&lt;br&gt;发送任务指令" style="whiteSpace=wrap;html=1;fontSize=11;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="3080" y="4095" width="120" height="60" as="geometry" />
+        <mxCell id="kREMFXWFvvc40EHcC-av-1" value="空闲机器人" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3360" y="4112.5" width="90" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZqsXquiyKXEDXcnmxECA-2" value="1.根据流程中配置规则&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.任务情况&lt;/span&gt;&lt;/div&gt;获取空闲机器人" style="whiteSpace=wrap;html=1;fontSize=11;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="3240" y="4095" width="120" height="60" as="geometry" />
+        <mxCell id="kREMFXWFvvc40EHcC-av-3" value="获取流程指定机器人、型号集合；&lt;br&gt;&lt;span style=&quot;&quot;&gt;流程中指定机器人分配策略&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3090" y="4110" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kREMFXWFvvc40EHcC-av-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kREMFXWFvvc40EHcC-av-6" target="kREMFXWFvvc40EHcC-av-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kREMFXWFvvc40EHcC-av-6" value="封装发送任务上下文&lt;br&gt;SendTaskContext" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3490" y="4112.5" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="kREMFXWFvvc40EHcC-av-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kREMFXWFvvc40EHcC-av-8" target="kREMFXWFvvc40EHcC-av-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3720" y="4220" />
+              <mxPoint x="3720" y="4220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kREMFXWFvvc40EHcC-av-15" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;sendToNextNode(sendTaskContext)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kREMFXWFvvc40EHcC-av-14">
+          <mxGeometry x="-0.2784" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kREMFXWFvvc40EHcC-av-8" value="发送移动到下一个节点指令&lt;br&gt;&lt;span style=&quot;&quot;&gt;RobotTaskSendAdapter&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3650" y="4107.5" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="kREMFXWFvvc40EHcC-av-13" value="根据执行任务机器人类型，获取对应Handle" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3670" y="4210" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="okoG1tatdO-b7Ftj87I1" name="GMS工作流">
-    <mxGraphModel dx="1728" dy="-84" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2017" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1771,7 +1811,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9U2rQwfRzzgwaRwNinjr" name="GMS业务模型">
-    <mxGraphModel dx="782" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1846,7 +1886,7 @@
             <mxPoint x="-19" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xLQ-c_VU8KXS8Ti9G8Cs-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;endArrow=none;endFill=0;" edge="1" parent="1" source="NEa13JKLf051I2usAC8h-3" target="NEa13JKLf051I2usAC8h-16">
+        <mxCell id="xLQ-c_VU8KXS8Ti9G8Cs-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;endArrow=none;endFill=0;" parent="1" source="NEa13JKLf051I2usAC8h-3" target="NEa13JKLf051I2usAC8h-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NEa13JKLf051I2usAC8h-3" value="途径等待点RMS判断，方向等因素，RMS通过回调，触发接口指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
@@ -1867,7 +1907,7 @@
         <mxCell id="NEa13JKLf051I2usAC8h-16" value="在RMS 地图上设置等待点及方向" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="275" y="1739" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xLQ-c_VU8KXS8Ti9G8Cs-3" value="等待点交互逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="xLQ-c_VU8KXS8Ti9G8Cs-3" value="等待点交互逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="116.5" y="1420" width="203.5" height="30" as="geometry" />
         </mxCell>
       </root>
