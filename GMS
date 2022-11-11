@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-11T06:30:49.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="nDbeLcBDL64c5r6Df3gx" version="20.5.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-11T06:36:21.417Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="zeDtRMyCwooqB266XAau" version="20.5.3" type="github" pages="5">
   <diagram id="0yfv4M_cfUsrdj4uZA5G" name="系统说明">
     <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1447,6 +1447,9 @@
         </mxCell>
         <mxCell id="eAclzZek43_GFXA5KWnb-0" value="&lt;div&gt;回调上游系统&lt;/div&gt;&lt;div&gt;--&amp;gt; ParamConvertCallBackChain&amp;nbsp;&lt;/div&gt;&lt;div&gt;-&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;APICallbackAdapter&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;--&amp;gt; CallbackDispatchVerticle&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;--&amp;gt; CallBackChainExecutor&lt;/span&gt;&lt;/div&gt;&lt;div&gt;--&amp;gt; MsgPreHandlerChain --&amp;gt; MsgStyleChain--&amp;gt;MsgSendChain&lt;/div&gt;&lt;div&gt;--&amp;gt; SendMessageComponent --&amp;gt; {HttpCallbackNotify 、TcpSocketCallbackNotify}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1480" y="2025" width="460" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="vlqkX8nEu9cKJcb-KVFi-1" value="生成接口指令任务：节点交互配置接口指令组件，等待点配置接口组件指令&lt;br&gt;1、节点货架到达回调生成接口任务&lt;br&gt;--&amp;gt; ShelfArrivedCallBackChain &lt;br&gt;--&amp;gt; NodeActionCommandExecutorComponent &lt;br&gt;--&amp;gt; ActionCommandExecutor &lt;br&gt;--&amp;gt; InterfaceCommandExecutor &lt;br&gt;--&amp;gt; InterfaceCommandTask&lt;br&gt;&lt;br&gt;2、等待点回调生成接口指令任务&lt;br&gt;--&amp;gt; WaitPointCallBackChain &lt;br&gt;--&amp;gt; WaitPointCommandExecutorHandler &lt;br&gt;--&amp;gt; InterfaceWaitPointTaskCommandExecutor &lt;br&gt;--&amp;gt; InterfaceCommandTask&lt;br&gt;&lt;br&gt;3、定时执行接口任务&lt;br&gt;--&amp;gt;&amp;nbsp;InterfaceTaskSchedule &lt;br&gt;--&amp;gt; CallbackDispatchVerticle &lt;br&gt;--&amp;gt; CallBackChainExecutor &lt;br&gt;--&amp;gt; MsgSendChain&lt;br&gt;--&amp;gt; SendMessageComponent --&amp;gt; {HttpCallbackNotify 、TcpSocketCallbackNotify}" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1480" y="2170" width="460" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
