@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T03:54:41.090Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="VS-mL8rPS5c4l8QKBPG0" version="21.1.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-04-21T05:35:34.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="Pgjfpy_F-4D7crAT5iMz" version="21.1.7" type="github" pages="9">
   <diagram id="0yfv4M_cfUsrdj4uZA5G" name="系统说明">
     <mxGraphModel dx="794" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2821,8 +2821,8 @@
         <mxCell id="TSntCcBj2Q4PagI2xBMb-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="TSntCcBj2Q4PagI2xBMb-1" target="TSntCcBj2Q4PagI2xBMb-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TSntCcBj2Q4PagI2xBMb-1" value="nginx&lt;br&gt;&lt;br&gt;172.22.100.103/iam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="TSntCcBj2Q4PagI2xBMb-1" value="nginx&lt;br&gt;&lt;br&gt;172.22.100.103/iam&lt;br&gt;172.22.100.103/simhub" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="140" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TSntCcBj2Q4PagI2xBMb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TSntCcBj2Q4PagI2xBMb-2" target="TSntCcBj2Q4PagI2xBMb-6">
           <mxGeometry relative="1" as="geometry" />
