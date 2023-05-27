@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-27T11:20:23.250Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="3JgcsleJPIEu7byCpZWM" version="21.3.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-05-27T14:04:04.324Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="GUoioIUq6rJy1t_1Alv2" version="21.3.4" type="github" pages="10">
   <diagram id="0yfv4M_cfUsrdj4uZA5G" name="系统说明">
     <mxGraphModel dx="975" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2893,17 +2893,38 @@
         <mxCell id="NL9-_ehKnjFOUCxG4IgU-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NL9-_ehKnjFOUCxG4IgU-1" target="NL9-_ehKnjFOUCxG4IgU-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="NL9-_ehKnjFOUCxG4IgU-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NL9-_ehKnjFOUCxG4IgU-1" target="NL9-_ehKnjFOUCxG4IgU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NL9-_ehKnjFOUCxG4IgU-1" value="中国大区" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="30" width="80" height="40" as="geometry" />
+          <mxGeometry x="270" y="25" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NL9-_ehKnjFOUCxG4IgU-3" value="Geek" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="110" width="80" height="40" as="geometry" />
+        <mxCell id="NL9-_ehKnjFOUCxG4IgU-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NL9-_ehKnjFOUCxG4IgU-3" target="NL9-_ehKnjFOUCxG4IgU-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NL9-_ehKnjFOUCxG4IgU-4" value="组织A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="110" width="80" height="40" as="geometry" />
+        <mxCell id="NL9-_ehKnjFOUCxG4IgU-3" value="Geek&lt;br&gt;直销" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="110" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NL9-_ehKnjFOUCxG4IgU-5" value="组织A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="334" y="110" width="80" height="40" as="geometry" />
+        <mxCell id="NL9-_ehKnjFOUCxG4IgU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NL9-_ehKnjFOUCxG4IgU-4" target="NL9-_ehKnjFOUCxG4IgU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9-_ehKnjFOUCxG4IgU-4" value="组织A&lt;br&gt;渠道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="105" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9-_ehKnjFOUCxG4IgU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NL9-_ehKnjFOUCxG4IgU-5" target="NL9-_ehKnjFOUCxG4IgU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9-_ehKnjFOUCxG4IgU-5" value="组织B&lt;br&gt;渠道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="384" y="105" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9-_ehKnjFOUCxG4IgU-9" value="渠道用户1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="195" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9-_ehKnjFOUCxG4IgU-11" value="渠道用户2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="384" y="195" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9-_ehKnjFOUCxG4IgU-13" value="渠道A管理员" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="195" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
